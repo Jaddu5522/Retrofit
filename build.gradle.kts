@@ -9,6 +9,8 @@ dependencies {
 
   implementation("androidx.room:room-runtime:$room_version")
 
+// Note: - Choose only one of ksp or annotationProcesor. Don't include both.
+
   // If this project uses any Kotlin source, use Kotlin Symbol Processing
   // See Add the KSP plugin to your project - this is Link for reading on this site page
   ksp("androidx.room:room-compiler:$room_version")
