@@ -36,4 +36,33 @@ dependencies {
 
   // optional - Paging 3 Integration
   implementation("androidx.room:room-paging:$room_version")
+
+
+// Retrofit API in Android for fetching the data & loading the data to the Compose Ui.
+
+implementation(libs.androidx.core.ktx)
+implementation(libs.androidx.lifecycle.runtime.ktx)
+implementation(libs.androidx.activity.compose)
+implementation(platform(libs.androidx.compose.bom))
+implementation(libs.androidx.ui)
+implementation(libs.androidx.ui.graphics)
+implementation(libs.androidx.ui.tooling.preview)
+implementation(libs.androidx.material3)
+
+// Image loading with Coil in Compose
+implementation(libs.coil.kt.coil.compose)
+
+// Retrofit for network requests
+implementation(libs.squareup.retrofit)
+implementation(libs.converter.gson)
+
+// Foundation utilities for Compose
+implementation(libs.androidx.foundation)
+
+// ViewModel
+implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+// ViewModel utilities for Compose
+implementation(libs.androidx.lifecycle.viewmodel.compose)
+implementation(libs.androidx.lifecycle.runtime.ktx)
 }
