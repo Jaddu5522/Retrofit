@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Computer's Processors",
-    "price": ₹ 900 for 1 KG. ,
+    "price": "₹ 900 for 1 KG." ,
     "image": "https://raw.githubusercontent.com/Jaddu5522/Kabadi_Image/main/COMPUTER/640px-RetiredCPUs.jpg",
     "description": "A processor (CPU) is the logic circuitry that responds to and processes the basic instructions that drive a computer",
     "category": "COMPUTER"
