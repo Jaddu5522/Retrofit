@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "CPU",
-    "price": ₹ 300 / 1 piece,
+    "price": "₹ 300 / 1 piece",
     "image": "https://raw.githubusercontent.com/Jaddu5522/Kabadi_Image/main/COMPUTER/computer-156768_640.png",
     "description": "a complex set of electronic circuitry that runs the machine's operating system and apps",
     "category": "COMPUTER"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Hard Disk",
-    "price": ₹ 100 / 1 piece,
+    "price": "₹ 100 / 1 piece",
     "image": "https://raw.githubusercontent.com/Jaddu5522/Kabadi_Image/main/COMPUTER/hdd-154463.svg",
     "description": "magnetic storage medium for a computer",
     "category": "COMPUTER"
