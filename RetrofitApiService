@@ -1,0 +1,4 @@
+interface ApiService {
+  @GET("products.json")
+  suspend fun getProducts(): List<Product>
+}
