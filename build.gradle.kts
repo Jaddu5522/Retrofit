@@ -52,6 +52,10 @@ implementation(libs.androidx.material3)
 // Image loading with Coil in Compose
 implementation(libs.coil.kt.coil.compose)
 
+
+// Coil dependencies from ChatGpt
+implementation("io.coil-kt:coil-compose:2.6.0")
+
 // Retrofit for network requests
 implementation(libs.squareup.retrofit)
 implementation(libs.converter.gson)
